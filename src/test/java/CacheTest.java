@@ -1,3 +1,5 @@
+import net.sourceforge.groboutils.junit.v1.MultiThreadedTestRunner;
+import net.sourceforge.groboutils.junit.v1.TestRunnable;
 import org.junit.Test;
 
 import java.lang.reflect.InvocationTargetException;
@@ -104,26 +106,41 @@ public class CacheTest {
     /***
      *多线程测试
      */
-//    @Test
-//    public void test6(){
-//
-//    }
+    @Test
+    public void test6(){
+        try {
+            // Runner数组，相当于并发多少个
+            TestRunnable[] threads = new TestRunnable[10];
+            for (int i = 0; i < 10; i++) {
+                final String key = "key" + i;
+                final String value = "value" + i;
+                threads[i] = new TestRunnable() {
+                    @Override
+                    public void runTest() throws Throwable {
+                        localCache.set(key,value);
+                    }
+                };
+            }
 
-//    public static void main(String[] args) {
-//        LocalCache localCache = LocalCache.getInstance();
-//        for (int i = 0; i < 10; i++) {
-//            final String key = "key" + i;
-//            final String value = "value" + i;
-//            new Thread(() -> {
-//                localCache.set(key,value);
-//            }).start();
-//        };
-//
-//        for (int i = 0; i < 10; i++) {
-//            final String key = "key" + i;
-//            new Thread(() -> {
-//                System.out.println(localCache.get(key));
-//            }).start();
-//        }
-//    }
+            MultiThreadedTestRunner mttr = new MultiThreadedTestRunner(threads);
+            mttr.runTestRunnables();
+
+            for (int i = 0; i < 10; i++) {
+                final String key = "key" + i;
+                threads[i] = new TestRunnable() {
+                    @Override
+                    public void runTest() throws Throwable {
+                        System.out.println(localCache.get(key));
+                    }
+                };
+            }
+
+            mttr = new MultiThreadedTestRunner(threads);
+            mttr.runTestRunnables();
+
+        } catch (Throwable e) {
+            e.printStackTrace();
+        }
+    }
+
 }
