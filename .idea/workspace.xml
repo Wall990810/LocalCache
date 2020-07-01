@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ef593a-6dba-44bb-81e8-f731f2fdf7ed" name="Default Changelist" comment="LocalCache">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="23ef593a-6dba-44bb-81e8-f731f2fdf7ed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +132,7 @@
       <workItem from="1593534481777" duration="2382000" />
       <workItem from="1593536986280" duration="183000" />
       <workItem from="1593562826160" duration="427000" />
-      <workItem from="1593563297434" duration="1730000" />
+      <workItem from="1593563297434" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="LocalCache">
       <created>1593535304767</created>
@@ -150,15 +148,41 @@
       <option name="project" value="LOCAL" />
       <updated>1593564860360</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加线程测试">
+      <created>1593565302522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593565302522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="47" />
+                  <entry key="3" value="111" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LocalCache" />
-    <option name="LAST_COMMIT_MESSAGE" value="LocalCache" />
+    <MESSAGE value="添加线程测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加线程测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="38" key="#Inspections" timestamp="1593532883121">
@@ -181,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593514614836" />
-    <state x="348" y="7" key="CommitChangelistDialog2" timestamp="1593565032413">
+    <state x="348" y="7" key="CommitChangelistDialog2" timestamp="1593565301189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="348" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593565032413" />
+    <state x="348" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593565301189" />
     <state x="497" y="184" key="FileChooserDialogImpl" timestamp="1593535535694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -193,22 +217,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="633" y="303" width="272" height="290" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1593535553228" />
-    <state width="1493" height="276" key="GridCell.Tab.0.bottom" timestamp="1593565247298">
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom" timestamp="1593565305740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593565247298" />
-    <state width="1493" height="276" key="GridCell.Tab.0.center" timestamp="1593565247298">
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593565305740" />
+    <state width="1493" height="276" key="GridCell.Tab.0.center" timestamp="1593565305740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593565247298" />
-    <state width="1493" height="276" key="GridCell.Tab.0.left" timestamp="1593565247297">
+    <state width="1493" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593565305740" />
+    <state width="1493" height="276" key="GridCell.Tab.0.left" timestamp="1593565305740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593565247297" />
-    <state width="1493" height="276" key="GridCell.Tab.0.right" timestamp="1593565247298">
+    <state width="1493" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593565305740" />
+    <state width="1493" height="276" key="GridCell.Tab.0.right" timestamp="1593565305740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593565247298" />
+    <state width="1493" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593565305740" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593534346846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -229,6 +253,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="329" y="17" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1593564011188" />
+    <state x="513" y="123" key="RollbackChangesDialog" timestamp="1593565479992">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593565479992" />
     <state x="218" y="71" key="SettingsEditor" timestamp="1593564289742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -237,10 +265,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593563300378" />
-    <state x="462" y="204" key="git4idea.merge.GitPullDialog" timestamp="1593565225108">
+    <state x="521" y="204" key="git4idea.merge.GitMergeDialog" timestamp="1593565531215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="462" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593565225108" />
+    <state x="521" y="204" key="git4idea.merge.GitMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593565531215" />
+    <state x="462" y="204" key="git4idea.merge.GitPullDialog" timestamp="1593565550163">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593565550163" />
     <state x="470" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1593511664559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
